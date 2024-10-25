@@ -3,13 +3,9 @@ Quantum computations and their simulations rely heavily on external strict compu
 ***
 ### Data description
 The state of a single qubit (*quantum bit*) can be represented as:
-$
-|\phi\rangle=\alpha|0\rangle+\beta|1\rangle
-$
+$$|\phi\rangle=\alpha|0\rangle+\beta|1\rangle$$
 where
-$
-|0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}, |1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}
-$
+$$|0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}, |1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$$
 
 For a multi-qubit system, the general representation of a state is called ***density matrix***. To provide an example, for two qubits it is written as follows:
 $
